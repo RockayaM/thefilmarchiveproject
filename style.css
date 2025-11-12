@@ -1343,4 +1343,22 @@ nav {
     .trailer-section .video-container {
         padding: 25px 15px;
     }
+
+}
+
+@media (max-width: 800px) {
+    .movie-poster, .cinema-poster {
+        height: 400px !important;
+        width: 100%;
+        object-fit: cover;
+    }
+    .movie-grid, .cinema-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .movie-card, .cinema-card {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
