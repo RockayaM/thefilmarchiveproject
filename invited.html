@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>You're Cordially Invited - The Film Archive</title>
+  <title>The Pickup - The Film Archive</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">The Film Archive</a></li>
-            <li><a href="cinemas.html">Now in Cinemas</a></li>
-            <li><a href="streaming.html">New on Streaming</a></li>
-            <li><a href="reviews.html">Latest Reviews</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<nav>
+    <input type="checkbox" id="nav-toggle" style="display: none;">
+    <div class="nav-brand">
+        <a href="index.html">The Film Archive</a>
+    </div>
+    <label for="nav-toggle" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </label>
+    <ul class="nav-menu">
+        <li><a href="cinemas.html">Now in Cinemas</a></li>
+        <li><a href="streaming.html">New on Streaming</a></li>
+        <li><a href="reviews.html">Latest Reviews</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
 <section class="review-header">
     <div class="review-header-content">
         <div class="poster-column"><img src="https://i.pinimg.com/1200x/06/c8/70/06c8705d83a40aaa01cfdfcede7b4fc9.jpg" alt="You're Cordially Invited Poster"></div>
@@ -33,12 +41,17 @@
     </div>
     </div>
 </section>
+
 <section class="trailer-section">
     <h2>Watch the Trailer</h2>
     <div class="video-container">
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/fWSNV4GiaYs?si=26hYUYxErqH6aFRH" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <a href="https://youtu.be/fWSNV4GiaYs?si=dcXmzSPA3wDVoMx3" target="_blank" class="trailer-button">
+            <span class="play-icon">▶</span>
+            Watch Trailer on YouTube
+        </a>
     </div>
 </section>
+
 <section class="review-content">
     <div class="review-text">
         <h2>The Verdict</h2>
